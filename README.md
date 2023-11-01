@@ -4,6 +4,9 @@
 Welcome to the Interactive Rating Component Challenge! In this challenge, your task is to build an interactive rating component that closely resembles the provided design. Users should be able to select and submit a number rating, see a "Thank you" card state after submitting the rating, and experience hover and focus states for all interactive elements on the page.
 
 
+![ezgif-2-8847a54def](https://github.com/Mohamed-Ashraf-Ibrahim/Interactive-Rating-Component/assets/146873948/ec396f06-c8d1-4b47-ae2b-7d70be9195ff)
+
+
 ## Features
 
  - [Number Rating Selection: Users should be able to select a number rating.](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
