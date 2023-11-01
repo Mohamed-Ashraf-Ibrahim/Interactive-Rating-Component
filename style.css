@@ -1,0 +1,139 @@
+:root {
+  --heading-color: hsl(0, 0%, 100%);
+  --paragraph-color: hsl(217, 12%, 63%);
+  --buttons-color: hsl(216, 12%, 54%);
+  --component-color: hsl(213, 19%, 18%);
+  --primary-color: hsl(25, 97%, 53%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Overpass', sans-serif;
+  background-color: hsl(216, 12%, 8%);
+}
+
+main {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.component,
+.submitted {
+  background-color: var(--component-color);
+  width: 350px;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.icon img {
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: hsl(218, 15%, 21%);
+}
+
+.text {
+  margin-top: 10px;
+  text-align: left;
+  width: 90%;
+  line-height: 1.5;
+}
+
+.text h2 {
+  font-weight: 700;
+  color: var(--heading-color);
+  font-size: 30px;
+}
+
+.text p {
+  font-size: 15px;
+  color: var(--paragraph-color);
+  margin-top: 6px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+ul li button {
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 10px;
+  background-color: hsl(218, 15%, 21%);
+  color: var(--buttons-color);
+  transition: 0.3s;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+ul li button:hover {
+  background-color: var(--buttons-color);
+  color: #fff;
+  cursor: pointer;
+}
+
+.sub {
+  width: 100%;
+  margin-top: 20px;
+  color: white;
+  background-color: var(--primary-color);
+  border: none;
+  padding: 0.6rem;
+  font-weight: 700;
+  font-size: 15px;
+  border-radius: 15px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.sub:hover {
+  background-color: white;
+  color: var(--primary-color);
+}
+
+.submitted {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.submitted .selected {
+  width: 200px;
+  padding: 8px;
+  margin: 15px;
+  border-radius: 15px;
+  font-size: 15px;
+  color: var(--primary-color);
+  background-color: hsl(218, 15%, 21%);
+}
+
+.submitted p{
+  margin-top: 10px;
+  width: 290px;
+  font-size: 15px;
+  color: var(--paragraph-color);
+}
+
+.active {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
