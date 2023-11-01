@@ -1,4 +1,4 @@
-Interactive Rating Component Challenge
+#Interactive Rating Component Challenge
 
 Welcome to the Interactive Rating Component Challenge! In this challenge, your task is to build an interactive rating component that closely resembles the provided design. Users should be able to select and submit a number rating, see a "Thank you" card state after submitting the rating, and experience hover and focus states for all interactive elements on the page.
 
